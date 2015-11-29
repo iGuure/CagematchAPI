@@ -11,4 +11,5 @@ import scrapy
 class Doubanmovietop250Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    rank = scrapy.Field()
+    title = scrapy.Field()
