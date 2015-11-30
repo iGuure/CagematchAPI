@@ -13,6 +13,10 @@ class DoubanMovieTop250Spider(scrapy.Spider):
 			item = Doubanmovietop250Item()
 			item['rank'] = info.xpath('div[@class="pic"]/em/text()').extract()
 			item['title'] = info.xpath('div[@class="pic"]/a/img/@alt').extract()
+			item['link'] = info.xpath('div[@class="pic"]/a/@href').extract()
+			item['star'] = info.xpath('div[@class="info"]/div[@class="bd"]/div[@class="star"]/span[@class="rating_num"]/text()').extract()
+			item['rate'] = info.xpath('div[@class="info"]/div[@class="bd"]/div[@class="star"]/span[last()]/text()').extract()
+			item['quote'] = info.xpath('div[@class="info"]/div[@class="bd"]/p[@class="quote"]/span/text()').extract()
 			yield item
 
 		nextPage = response.xpath('//span[@class="next"]/a/@href')
