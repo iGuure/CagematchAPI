@@ -23,6 +23,6 @@ It's because the content you've crawled and the terminal you're using(cmd) are u
 
 My solution: Use Linux instead :)
 
-For further reading: 
-[【整理】Python中遇到"UnicodeDecodeError: ‘gbk’ codec can’t decode bytes in position 2-3: illegal multibyte sequence"之类的编码或解码的错误时如何处理](http://www.tuicool.com/articles/nEjiEv)
-[网络爬虫的乱码处理](http://blog.csdn.net/preterhuman_peak/article/details/42420515)
+###### For further reading: 
++ [【整理】Python中遇到"UnicodeDecodeError: ‘gbk’ codec can’t decode bytes in position 2-3: illegal multibyte sequence"之类的编码或解码的错误时如何处理](http://www.tuicool.com/articles/nEjiEv)
++ [网络爬虫的乱码处理](http://blog.csdn.net/preterhuman_peak/article/details/42420515)
