@@ -12,7 +12,7 @@ Douban Movie Top250
 -------------------
 For generating an `items.json` file containing all scrapy items, serialized in JSON, you can use the following command:
 
-    scrapy crawl movie250 -o items.json
+    scrapy crawl doubanmovietop250 -o items.json
 
 Then, run `output.py` for decoding purpose in order to gain the exact result.
 
