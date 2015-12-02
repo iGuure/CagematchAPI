@@ -16,4 +16,4 @@ def readMovieJson():
 			quote = movie["quote"][0]
 		else: quote = "暂无".decode("utf-8")
 
-		print "top".decode("utf-8") + rank + ".".decode("utf-8") + title + " 评分".decode("utf-8") + star + '('.decode("utf-8") + rate + ')'.decode("utf-8") + "\n链接：".decode("utf-8") + link +  "\n豆瓣评论：".decode("utf-8") + quote + "\n"
+		print "\ntop".decode("utf-8") + rank + ".".decode("utf-8") + title + " 评分".decode("utf-8") + star + '('.decode("utf-8") + rate + ')'.decode("utf-8") + "\n链接：".decode("utf-8") + link +  "\n豆瓣评论：".decode("utf-8") + quote
