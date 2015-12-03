@@ -16,6 +16,14 @@ For generating an `items.json` file containing all scrapy items, serialized in J
 
 Then, run `output.py` for decoding purpose in order to gain the exact result.
 
+Pro Wrestling
+-------------
+For personal mania.
+##### The following objects are currently included:
++ WWE Photos
+
+For its usage, check out the above contents.
+
 Notes while learing
 -------------------
 #### 1.UnicodeEncodeError-"GBK" related for Windows
