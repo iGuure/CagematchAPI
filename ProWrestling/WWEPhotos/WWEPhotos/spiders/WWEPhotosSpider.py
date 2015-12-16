@@ -6,10 +6,10 @@ from WWEPhotos.items import WwephotosItem
 class WWEPhotosSpider(scrapy.Spider):
 	name = 'wwephotos'
 	allowed_domains = ["wwe.com"]
-	start_urls = [ # Please write the URLs from the bottom up
-		"http://www.wwe.com/inside/wwe-app-backstage-peeks-november-2014-photos",
-		"http://www.wwe.com/inside/25-best-instagram-photos-week-11-29-2015"
-	]
+
+	def __init__(self, url=None, *args, **kwargs):
+		super(WWEPhotosSpider, self).__init__(*args, **kwargs)
+		self.start_urls = [url]
 
 	def parse(self, response):
 		item = WwephotosItem()
