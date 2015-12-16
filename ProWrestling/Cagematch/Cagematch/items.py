@@ -7,8 +7,13 @@
 
 import scrapy
 
-
 class CagematchItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    rank = scrapy.Field()
+    gimmick = scrapy.Field()
+    birthplace = scrapy.Field()
+    height = scrapy.Field()
+    weight = scrapy.Field()
+    promotion = scrapy.Field()
+    rating = scrapy.Field()
