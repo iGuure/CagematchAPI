@@ -10,7 +10,7 @@ Requirements
 
 Douban Movie Top250
 -------------------
-For generating an `items.json` file containing all scrapy items, serialized in JSON, you can use the following command:
+For generating an `items.json` file containing all Scrapy items, serialized in JSON, you can use the following command:
 
     scrapy crawl doubanmovietop250 -o items.json
 
@@ -40,8 +40,8 @@ pixiv
 -----
 TBC
 
-Notes while learing
--------------------
+Notes while learning
+--------------------
 #### 1.UnicodeEncodeError-"GBK" related for Windows
 It's because the content you've crawled and the terminal you're using(cmd) are using different character encoding forms. Usually cmd uses cp936(similar to GBK) as default.
 
