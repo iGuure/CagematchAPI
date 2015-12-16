@@ -21,12 +21,17 @@ Pro Wrestling
 For personal mania.
 ##### The following objects are currently included:
 + WWE Photos
+
     For crawling all kinds of WWE photos(PPV, RAW, superstar, etc) and transform them into a format that can be post on a Discuz! forum. Remember to add url to your command:
         `scrapy crawl wwephotos -a [url] -o items.json`
     and don't forget to run `output.py>yourFile.txt` for transformation and output.
+
 + TNA Photos
+
     For crawling photos of TNA wrestlers(roster and alumni). You will get a list of urls of those photos and their corresponding wrestlers' name.
+
 + Cagematch
+
     For crawling many interesting stats from the biggest CAGE in the world -- cagematch.net. Currently, you can get the list of Top 250 wrestlers via CagematchAPI. More stats crawling will be added soon.
 
 pixiv
