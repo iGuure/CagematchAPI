@@ -14,7 +14,7 @@ Usage
 -----
 Just use the following command:
 
-    `scrapy crawl cagematch -o items.json`
+    scrapy crawl cagematch -o items.json
 
 If any problem occured, find out reasons in `Notes while learning` in `dev` branch or contact me anytime :)
 
