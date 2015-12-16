@@ -70,7 +70,7 @@ My solution: Use the following command:
 + [解决Python2.7的UnicodeEncodeError: ‘ascii’ codec can’t encode异常错误](http://wangye.org/blog/archives/629/)
 
 #### 3."restrict_xpaths" doesn't work
-Maybe you have override the `parse` function when using a `CrawlSpider` as it is stated in the docs.
+Maybe you have overrode the `parse` function when using a `CrawlSpider` as it is stated in the docs.
 
 My solution: Use another name instead of `parse` for the callback function.
 
