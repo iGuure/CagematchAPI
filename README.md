@@ -1,6 +1,6 @@
 CagematchAPI
 ============
-For crawling many interesting stats from the biggest CAGE in the world -- cagematch.net. Currently, you can get the list of Top 250 wrestlers via CagematchAPI. More stats crawling will be added soon.
+For crawling many interesting stats from the biggest CAGE in the world -- cagematch.net -- using Scrapy. Currently, you can get the list of Top 250 wrestlers via CagematchAPI. More stats crawling will be added soon.
 
 Want to know more about Scrapy? Checkout `dev` branch to see my personal Scrapy pratice and notes while I was learning Scrapy.
 
