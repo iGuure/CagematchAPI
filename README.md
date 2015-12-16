@@ -7,7 +7,7 @@ Requirements
 + Python 2.7
     - [Scrapy](http://scrapy.org "Scrapy official website") 1.0.3
 + Works on Linux, Windows, Mac OSX, BSD
-
+x
 Douban Movie Top250
 -------------------
 For generating an `items.json` file containing all scrapy items, serialized in JSON, you can use the following command:
@@ -21,8 +21,9 @@ Pro Wrestling
 For personal mania.
 ##### The following objects are currently included:
 + WWE Photos
++ TNA Photos
 
-For its usage, check out the above contents.
+For its usage, TBC.
 
 Notes while learing
 -------------------
@@ -52,3 +53,11 @@ My solution: Use the following command:
 
 ##### For further reading: 
 + [解决Python2.7的UnicodeEncodeError: ‘ascii’ codec can’t encode异常错误](http://wangye.org/blog/archives/629/)
+
+#### 3."restrict_xpaths" doesn't work
+Maybe you have override the `parse` function when using a `CrawlSpider` as it is stated in the docs.
+
+My solution: Use another name instead of `parse` for the callback function.
+
+##### For further reading: 
++ [Scrapy rule doesn't work with 'restrict_xpaths'](http://stackoverflow.com/questions/32709245/scrapy-rule-doesnt-work-with-restrict-xpaths)
