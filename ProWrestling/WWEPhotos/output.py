@@ -9,7 +9,7 @@ def readWWEJson():
 	reload(sys)
 	sys.setdefaultencoding('utf-8')
 
-	inFile = open("items10.json", 'r', 0)
+	inFile = open("items.json", 'r', 0)
 	text = inFile.read()
 	WWEDict = json.loads(text)
 	preTitle = None

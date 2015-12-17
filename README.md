@@ -24,7 +24,7 @@ For personal mania.
 
     For crawling all kinds of WWE photos(PPV, RAW, superstar, etc) and transform them into a format that can be post on a Discuz! forum. Remember to add url to your command:
 
-        scrapy crawl wwephotos -a [url] -o items.json
+        scrapy crawl wwephotos -a url=[yourUrl] -o items.json
         
     and don't forget to run `output.py>yourFile.txt` for transformation and output.
 
