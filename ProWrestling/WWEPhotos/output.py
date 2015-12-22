@@ -14,24 +14,29 @@ def readWWEJson():
 	WWEDict = json.loads(text)
 	preTitle = None
 	preSummary = None
+
+	f = open('output.txt', 'a+')
+
 	for WWE in WWEDict:
 		title = WWE["title"][0]
 
 		if preTitle != title:
-			print "\n[b]".decode("utf-8") + title + "[/b]".decode("utf-8")
+			f.write("\n\n[b]".decode("utf-8") + title + "[/b]".decode("utf-8"))
 			preTitle = title
 
 		if WWE["summary"]:
 			summary = WWE["summary"][0]
 			if preSummary != summary:
-				print "\n".decode("utf-8") + summary
+				f.write("\n\n".decode("utf-8") + summary)
 				preSummary = summary
 
 		picURL = WWE["picURL"][0]
 		if WWE["caption"]:
 			caption = WWE["caption"][0]
-			print "\n[img]".decode("utf-8") + picURL + "[/img]\n\n".decode("utf-8") + caption
+			f.write("\n\n[img]".decode("utf-8") + picURL + "[/img]\n\n".decode("utf-8") + caption)
 		else:
-			print "\n[img]".decode("utf-8") + picURL + "[/img]".decode("utf-8")
+			f.write("\n\n[img]".decode("utf-8") + picURL + "[/img]".decode("utf-8"))
+
+	f.close()
 
 readWWEJson()

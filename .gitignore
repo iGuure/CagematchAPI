@@ -2,7 +2,7 @@
 *.py[cod]
 
 # Output:
-items.json
+output.txt
 
 # Assistance:
 README.html
