@@ -22,11 +22,7 @@ For personal mania.
 ##### The following objects are currently included:
 + WWE Photos
 
-    For crawling all kinds of WWE photos(PPV, RAW, superstar, etc) and transform them into a format that can be post on a Discuz! forum. Remember to add url to your command:
-
-        scrapy crawl wwephotos -a url=[yourUrl] -o items.json
-        
-    and don't forget to run `output.py>yourFile.txt` for transformation and output.
+    For crawling all kinds of WWE photos(PPV, RAW, superstar, etc) and transform them into a format that can be post on a Discuz! forum. Write(Actually, Ctrl+C and Ctrl+V) all the urls into `build.py`, then run `build.py` to gain `output.txt` for the data and the number of photos in the command line.
 
 + TNA Photos
 
